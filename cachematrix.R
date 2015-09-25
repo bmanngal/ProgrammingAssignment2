@@ -36,6 +36,6 @@ cacheSolve<- function(x=matrix(), ...) {
   # if not in cache then calculte inverse (no error hanfling if matrix singular)
   data <-x$get()
   Inv<-solve(data)
-  x$setInv(Inv)
+   x$setInv(Inv)
   Inv
 }
